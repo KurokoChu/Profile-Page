@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile Page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Roboto:300,400,500">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Favicon and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+
+    <!-- Top menu -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Profile Page
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-link-3 btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                My Profile
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#my-information">My information</a>
+                                <a class="dropdown-item" href="#my-education">My education</a>
+                                <a class="dropdown-item" href="#my-favorite">My favorite foods</a>
+                                <a class="dropdown-item" href="#my-favorite">My favorite movies</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-link-3 btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contact Me
+                            </button>
+                            <div class="dropdown-menu" style="margin: 7px 0 0 0px;padding: 0px;">
+                                <div class="container" style="margin: 0px;padding: 0px;width: 600px;">
+                                    <form class="well form-horizontal" action=" " method="" id="" style="margin: 0px;">
+                                        <fieldset>
+
+                                            <legend>Contact me</legend>
+
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">Name</label>
+                                                <div class="col-md-10 inputGroupContainer">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                                        <input name="" placeholder="First Name & Last Name" class="form-control"
+                                                            type="text">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">E-Mail</label>
+                                                <div class="col-md-10 inputGroupContainer">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                                        <input name="" placeholder="E-Mail Address" class="form-control"
+                                                            type="text">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">Gender</label>
+                                                <div class="col-md-1">
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="" value="" /> Male
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1" style="margin-left: 10px;">
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="" value="" /> Female
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1" style="margin-left: 25px;">
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="" value="" /> Other
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">Subject</label>
+                                                <div class="col-md-10 selectContainer">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                                        <select name="" class="form-control selectpicker">
+                                                            <option value=" ">Please select your topic</option>
+                                                            <option>1</option>
+                                                            <option>2</option>
+                                                            <option>3</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label">Description</label>
+                                                <div class="col-md-10 inputGroupContainer">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                                        <textarea class="form-control" name="" placeholder="Description"
+                                                            style="resize: none;" rows="5"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-2 control-label"></label>
+                                                <div class="col-md-4">
+                                                    <button type="submit" class="btn btn-success">Send <span class="glyphicon glyphicon-send"></span></button>
+                                                </div>
+                                            </div>
+
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top content -->
+    <div id="home" class="jumbotron jumbotron-fluid top-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text wow fadeInLeft">
+                    <img src="../profile-new/assets/img/profile_pict.jpg" class="img-responsive img-circle" alt="">
+                    <div class="divider-1">
+                        <div class="line"></div>
+                    </div>
+                    <h1>Supakit Rodthong</h1>
+                    <div class="description">
+                        <p class="medium-paragraph">
+                            Faculty of Information Technology, KMITL
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features-container section-container">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 features section-description wow fadeIn">
+                    <h2>Content</h2>
+                    <div class="divider-1">
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 features-box wow fadeInLeft">
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-9">
+                            <h3>Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et.
+                                Ut wisi enim ad minim veniam, quis nostrud.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 features-box wow fadeInLeft">
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-9">
+                            <h3>Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et.
+                                Ut wisi enim ad minim veniam, quis nostrud.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 features-box wow fadeInLeft">
+                    <div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-9">
+                            <h3>Lorem ipsum</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et.
+                                Ut wisi enim ad minim veniam, quis nostrud.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Profile -->
+    <div id="my-information" class="profile-container section-container">
+        <div class="container layouts">
+            <div class="row">
+                <div class="col-sm-12 section-description wow fadeIn">
+                    <h1>Information</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card wow fadeInLeft">
+                    <div class="card-header"></div>
+
+                    <div class="card-body">
+                        <h2 class="name">Supakit Rodthong</h2>
+                        <h4 class="nick-name">James</h4>
+                        <div class="bio">
+                            <h4>Gender : Male</h4>
+                            <h4>Age : 20 years old</h4>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="accounts">
+                            <div class="account">
+                                <span class="label">Facebook</span>
+                                <span class="icon">
+                                    <a href="https://www.facebook.com/J4MERzIMMORTAL" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                </span>
+                            </div>
+                            <div class="account">
+                                <span class="label">Youtube</span>
+                                <span class="icon">
+                                    <a href="https://plus.google.com/113060267254550459465" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </span>
+                            </div>
+                            <div class="account">
+                                <span class="label">Github</span>
+                                <span class="icon">
+                                    <a href="https://github.com/KurokoChu" target="_blank"> <i class="fab fa-github"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div id="my-education" class="section-container">
+        <div class="container layouts">
+            <div class="row">
+                <div class="col-sm-12 section-description wow fadeIn">
+                    <h1>Education</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="education wow fadeInLeft">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Years</th>
+                                    <th>Level</th>
+                                    <th>School</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2004 - 2006</td>
+                                    <td>High school</td>
+                                    <td>Rayongwittayakom School</td>
+                                </tr>
+                                <tr>
+                                    <td>2007 - 2010</td>
+                                    <td>Bachelor degree</td>
+                                    <td>KMITL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Favorite -->
+    <div id="my-favorite" class="favorite-container section-container">
+        <div class="container layouts">
+            <div class="row">
+                <div class="col-sm-12 section-description wow fadeIn">
+                    <h1>Favorite</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="fav-foods wow fadeInLeft">
+                        <h3>Foods</h3>
+                        <ul>
+                            <li>Coffe</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="fav-movies wow fadeInLeft">
+                        <h3 class="white">Movies</h3>
+                        <ol>
+                            <li>Coffe</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer" class="container">
+            <div class="row">
+                <div class="col-sm-12 footer-copyright">
+                    <h4 class="white">Hello, world! Dummy footer</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>
